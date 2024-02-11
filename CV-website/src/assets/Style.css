@@ -1,0 +1,169 @@
+h1{
+    color: white;
+    text-align: center;
+}
+h2,h3{
+    color: white;
+    margin-left: 100px;
+}
+
+p{
+    color: rgb(94,96,97,255);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+hr{
+    margin-top: 100px;
+}
+
+
+
+
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    gap: 25px;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    margin: 0; 
+    padding: 0; 
+  }
+ 
+
+    
+ 
+  
+  .container {
+    width: 90%; 
+    min-height: 100vh;
+    background-color: rgba(29, 30, 32, 255);
+    position: relative;
+    margin: 0 auto;
+    top:0
+  }
+
+  
+
+nav div a {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+nav div a .avatar {
+    height: 50px;
+    width: 50px;
+    display: block; 
+    margin: 0; 
+    padding: 0;
+    
+}
+
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+.profilePicture{
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    
+       
+}
+
+.profileText{
+    padding-left: 100px;
+    animation-name: apear;
+    animation-duration: 2s;
+
+}
+.conteiner1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+
+
+
+
+.firstProjectContainer{
+    display: flex;
+    margin-bottom: 100px;
+    
+}
+
+
+.certificate{
+    margin-left: 100px;
+}
+
+
+#image-container {
+    margin-left: 100px;
+    position: relative;
+    overflow: hidden;
+    
+    
+  }
+  
+  #image {
+    transition: transform .5s;
+    transform: scale(1);
+    display: block;
+    block-size: auto;
+   
+   
+    
+  }
+  
+  #image-container:hover #image {
+    transform: scale(1.2);
+  }
+
+
+@keyframes apear {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
