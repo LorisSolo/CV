@@ -62,12 +62,13 @@ export default {
         <img id="slikap" class="profilePicture" src='../assets/img/placeHolder.jpg'>
         <div class="profileText">
           <h1> Loris Solo</h1>
-          <p style="color: rgb(59,132,154,255);"><b> 23 yeares
+          <p style="color: rgb(59,132,154,255);"><b> 23 years
               <span style="color: rgb(96,97,99,255)">/</span> Lovran
               <span style="color: rgb(96,97,99,255);">/</span> bacc.ing.comp</b></p>
-          <p>Bachelor's degree in computer science from September 15, 2023.</p>
-          <p>looking for a job that offers new knowledge and experience.</p>
-          <p>Motivated to work, responsible and ready to learn.</p>
+          <p>Bachelor's degree in Computer Science earned in September 2023.</p>
+          <p>Currently seeking opportunities to expand my knowledge and gain valuable experience in the field.</p>
+          <p>Motivated, responsible, and eager to embark on new learning journeys.</p>
+          <a href="https://github.com/LorisSolo" style="padding-left: 50px;">https://github.com/LorisSolo</a>
 
 
 
@@ -78,23 +79,30 @@ export default {
     <hr>
     <div ref="myProjects">
       <h1 calss="reveal">My projects</h1>
-      <div class="firstProjectContainer reveal">
+      <div class="sectionContainer reveal">
 
 
         <a href="https://web-app-frontend.onrender.com/#/">
           <div id="image-container">
-            <img id="image" class="project1" src="../assets/img/project_1.png">
+            <img id="image" class="project1" src="../assets/img/project_1.png" style="margin-bottom: 50px;">
           </div>
-
         </a>
 
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nam ipsam commodi culpa tempore dolores cupiditate beatae repellendus animi, quidem accusamus perferendis tempora voluptatibus minus modi ipsum dolor dolorem officiis!
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea totam voluptates magni tenetur! Quis similique tempore architecto rem molestiae doloremque nam nesciunt, sed, reiciendis blanditiis, omnis impedit? Atque, similique officia?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, reiciendis odio odit ipsam repellendus et quaerat, nemo suscipit delectus, fugiat quasi nostrum nam harum. Commodi, eveniet! Omnis facere expedita voluptates?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa fugiat quo illo est, deserunt voluptates eius reiciendis facilis alias debitis accusamus? Tempora, corporis saepe! Eos reprehenderit voluptas illum officiis exercitationem?
-        </p>
+
+        <p>My first project involved developing a dynamic web application facilitating users to upload and share their
+          recipes seamlessly.
+          The platform enabled users to explore a diverse array of recipes contributed by others, while also providing
+          functionality to select ingredients and discover compatible dishes.
+          Click on the image for further details.</p>
 
       </div>
+      <div style="display: flex;" class="reveal">
+        <div id="image-container">
+          <img class="comingSoon" src="../assets/img/comingSoon.jpg">
+        </div>
+        <p>More projects coming soon!</p>
+      </div>
+
     </div>
 
     <hr ref="publications">
@@ -104,34 +112,47 @@ export default {
       <h3 class="reveal">Loris Solo, Neven Grbac, 2023, Elliptic Curve Cryptography in View of Quantum Computing, Zbornik
         studentskih
         radova, vol 2, page 313</h3>
-      <div class="firstProjectContainer reveal">
+      <div class="sectionContainer reveal">
         <a href="https://www.unipu.hr/zbornik-studentskih-radova/izdanja">
           <div id="image-container">
             <img id="image" class="project1" src='../assets/img/Publication.png'>
           </div>
         </a>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolore rem facilis. Reprehenderit facilis dignissimos alias corrupti neque iste repudiandae vitae. Vitae officia aperiam recusandae velit ad maiores nam blanditiis?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis et aut id ad! Harum nostrum, corporis maiores eius laudantium inventore non dignissimos rem doloremque, cupiditate voluptatem velit blanditiis tempore doloribus?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste alias laboriosam dicta eum voluptates similique fugiat suscipit, commodi nemo officiis? Repellendus quasi asperiores commodi cupiditate temporibus ullam vel nam repudiandae!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ratione reiciendis doloribus, labore explicabo dolor molestiae autem exercitationem amet tempore sit voluptatum neque, cupiditate placeat ipsam in officiis vero veritatis.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, tempore! Modi quos officiis incidunt non maxime sapiente eum temporibus veniam labore, perspiciatis deserunt quasi minima amet iure, repellat doloribus possimus.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo est ut, culpa enim hic repudiandae maiores aliquid asperiores, vitae eveniet soluta dolores voluptas rem dolor earum illum consequatur fugit ducimus!
-          
+          Summary: Elliptic curve cryptography is one of the most used methods today
+          cryptography, which enables the security of most communications in the modern world
+          information and communication technologies. It is based on complexity, for today
+          classical computers, discrete logarithm problems in carefully selected groups
+          elliptic curves. However, the accelerated development of quantum computers, which is expected in
+          for years to come, calls into question the security of existing cryptography methods,
+          given that it is already known how problems like discrete logarithm on quantum
+          can be solved with computers in polynomial time. The aim of this paper is to explain how
+          elliptic curve cryptography works today, see its shortcomings in the world
+          of quantum computing and describe the methods by which these shortcomings can be eliminated.
+          Key words: cryptography, elliptic curves, discrete logarithm problem,
+          quantum computing, post-quantum cryptography
         </p>
+
       </div>
     </div>
     <hr ref="certificate">
-    <div class="reveal">
-      <h1>Certificate</h1>
+    <h1>Certificate</h1>
+    <div class="reveal" style="display: flex;">
+      <div class="image-container">
 
-      <img id="image" class="certificate " src='../assets/img/certificate.png'>
+
+        <img id="image" class="certificate " src='../assets/img/certificate.png'>
+
+      </div>
+      <p>Certificate of Completion: 16-Hour Course on Programming in Python (D460)
+        Enhanced proficiency in Python programming through comprehensive 16-hour course curriculum covering fundamental
+        concepts and practical applications.
+        Gained valuable insights and skills crucial for developing robust software solutions.</p>
+
+
+
+
     </div>
-
-
-
-
-
   </div>
 </template>
   

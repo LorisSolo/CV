@@ -108,16 +108,19 @@ nav div a .avatar {
   
 }
 
+.comingSoon{
+    display: flex;
+    width: 975px;
+    height: 508px;
+}
 
 
-
-
-
-.firstProjectContainer{
+.sectionContainer{
     display: flex;
     margin-bottom: 100px;
     
 }
+
 
 
 .certificate{
