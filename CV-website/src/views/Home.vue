@@ -77,7 +77,8 @@ export default {
     </div>
 
     <hr>
-    <div ref="myProjects">
+ 
+<div ref="myProjects">
       <h1 calss="reveal">My projects</h1>
       <div class="sectionContainer reveal">
 
@@ -98,12 +99,15 @@ export default {
       </div>
       <div style="display: flex;" class="reveal">
         <div id="image-container">
-          <img class="comingSoon" src="../assets/img/comingSoon.jpg">
+          <img id="image" class="comingSoon" src="../assets/img/comingSoon.jpg">
         </div>
         <p>More projects coming soon!</p>
       </div>
 
     </div>
+
+   
+
 
     <hr ref="publications">
     <div ref=" reveal">
@@ -137,7 +141,7 @@ export default {
     </div>
     <hr ref="certificate">
     <h1>Certificate</h1>
-    <div class="reveal" style="display: flex;">
+    <div  class="certificate reveal" style="display: flex;">
       <div class="image-container">
 
 
@@ -153,6 +157,13 @@ export default {
 
 
     </div>
+    <footer>
+      <p>Work in progress!</p>
+
+    </footer>
+
+
+
   </div>
 </template>
   
