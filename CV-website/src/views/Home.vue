@@ -77,10 +77,11 @@ export default {
     </div>
 
     <hr>
- 
-<div ref="myProjects">
-      <h1 calss="reveal">My projects</h1>
-      <div class="sectionContainer reveal">
+
+    <div ref="myProjects">
+
+      <!--  
+<div class="sectionContainer reveal">
 
 
         <a href="https://web-app-frontend.onrender.com/#/">
@@ -96,17 +97,48 @@ export default {
           functionality to select ingredients and discover compatible dishes.
           Click on the image for further details.</p>
 
+
+
+
       </div>
-      <div style="display: flex;" class="reveal">
-        <div id="image-container">
-          <img id="image" class="comingSoon" src="../assets/img/comingSoon.jpg">
-        </div>
-        <p>More projects coming soon!</p>
+
+  -->
+
+
+      <h1 calss="reveal">My projects</h1>
+<div class="project-conteiner">
+  <div class="card reveal">
+        <a href="https://web-app-frontend.onrender.com/#/">
+          <img class="slika" id="image" src="../assets/img/project_1.png" alt="">
+        </a>
+
+        <h2>Food1e</h2>
+        <p>My first project involved developing a dynamic web application facilitating users to upload and share their
+          recipes seamlessly. The platform enabled users to explore a diverse array of recipes contributed by others,
+          while also providing functionality to select ingredients and discover compatible dishes. Click on the image for
+          further details.</p>
+
       </div>
+
+
+
+
+      <div class="card reveal">
+        <img class="slika" id="image" src="../assets/img/comingsoon.jpg" alt="">
+        <h2>Coming soon</h2>
+        <p>More projects coming soon</p>
+
+      </div>
+
+</div>
+   
+
+
+
 
     </div>
 
-   
+
 
 
     <hr ref="publications">
@@ -118,8 +150,8 @@ export default {
         radova, vol 2, page 313</h3>
       <div class="sectionContainer reveal">
         <a href="https://www.unipu.hr/zbornik-studentskih-radova/izdanja">
-          <div id="image-container">
-            <img id="image" class="project1" src='../assets/img/Publication.png'>
+          <div id="image2-container">
+            <img id="image2" class="project1" src='../assets/img/Publication.png'>
           </div>
         </a>
         <p>
@@ -141,11 +173,11 @@ export default {
     </div>
     <hr ref="certificate">
     <h1>Certificate</h1>
-    <div  class="certificate reveal" style="display: flex;">
-      <div class="image-container">
+    <div class="certificate reveal" style="display: flex;">
+      <div class="image2-container">
 
 
-        <img id="image" class="certificate " src='../assets/img/certificate.png'>
+        <img id="image2" class="certificate " src='../assets/img/certificate.png'>
 
       </div>
       <p>Certificate of Completion: 16-Hour Course on Programming in Python (D460)
@@ -167,6 +199,4 @@ export default {
   </div>
 </template>
   
-<style>
-@import '../assets/Style.css';
-</style>
+<style>@import '../assets/Style.css';</style>
