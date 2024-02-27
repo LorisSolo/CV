@@ -118,6 +118,9 @@ export default {
           while also providing functionality to select ingredients and discover compatible dishes. Click on the image for
           further details.</p>
 
+          <a href="https://github.com/LorisSolo/dwa-backend"><img class ="technology-icons" src="../assets/img/Node.js_logo.svg" alt=""></a>
+          <a href ="https://github.com/LorisSolo/web-app.frontend"><img class ="technology-icons" src="../assets/img/Vue.js_Logo.svg" alt=""></a>
+
       </div>
 
 

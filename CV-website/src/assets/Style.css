@@ -210,7 +210,12 @@ footer p {
     
   }
   
+.technology-icons{
 
+    width: 150px;
+    height: 50px;
+    
+}
   
   #image2 {
     transition: transform .5s;
