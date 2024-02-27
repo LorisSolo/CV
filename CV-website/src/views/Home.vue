@@ -124,7 +124,7 @@ export default {
 
 
       <div class="card reveal">
-        <img class="slika" id="image" src="../assets/img/comingsoon.jpg" alt="">
+        <img class="slika" id="image" src="../assets/img/comingSoon.jpg" alt="">
         <h2>Coming soon</h2>
         <p>More projects coming soon</p>
 
